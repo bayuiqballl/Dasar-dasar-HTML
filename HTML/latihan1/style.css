@@ -1,0 +1,43 @@
+* {
+	padding: 0px;  margin: 0px;
+	font-family: sans-serif;
+}
+
+h1 {
+	float: left;
+}
+
+
+.wrapper {
+	width: 900px;
+	margin: 0 auto;
+}
+
+.content-header {
+	background:  blue;
+	color:  white;
+	padding: 10px;
+}
+
+.clearfix:after{
+	content: "";  
+	display: table;
+	clear: both;
+}
+
+
+
+.content-header form{
+	float: right;
+}
+
+.content-header label,
+.content-header input {
+
+	display: block;
+}
+
+.group-form {
+	float: left;
+}
+
